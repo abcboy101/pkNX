@@ -692,20 +692,20 @@ public class GameDumperSWSH(GameManagerSWSH rom)
     }
 
     private static ReadOnlySpan<int> LanguageIndexes => [0, 2, 3, 4, 5, 6, 7, 8, 9];
-    private static readonly string[] LanguageCodes = ["ja", "en", "fr", "it", "de", "es", "ko", "zh", "zh2"];
+    private static readonly string[] LanguageCodes = ["ja", "en", "fr", "it", "de", "es", "ko", "zh-Hans", "zh-Hant"];
 
     private static readonly string[] LanguageNames =
     [
-        "カタカナ",
+        "かな",
         "漢字",
         "English",
         "Français",
         "Italiano",
         "Deutsch",
         "Español",
-        "한국",
-        "汉字简化方案",
-        "漢字簡化方案",
+        "한국어",
+        "简体中文",
+        "繁體中文",
     ];
 
     private string[] GetStoryLines(string str)

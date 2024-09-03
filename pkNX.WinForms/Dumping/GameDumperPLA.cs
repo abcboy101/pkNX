@@ -968,20 +968,20 @@ public class GameDumperPLA(GameManagerPLA rom)
         File.WriteAllLines(p3, l3);
     }
 
-    private static readonly string[] LanguageCodes = ["ja", "en", "fr", "it", "de", "es", "ko", "zh", "zh2"];
+    private static readonly string[] LanguageCodes = ["ja", "en", "fr", "it", "de", "es", "ko", "zh-Hans", "zh-Hant"];
 
     private static readonly string[] LanguageNames =
     [
-        "カタカナ",
+        "かな",
         "漢字",
         "English",
         "Français",
         "Italiano",
         "Deutsch",
         "Español",
-        "한국",
-        "汉字简化方案",
-        "漢字簡化方案",
+        "한국어",
+        "简体中文",
+        "繁體中文",
     ];
 
     private void ChangeLanguage(int index)

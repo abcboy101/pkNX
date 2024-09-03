@@ -8,10 +8,10 @@ public enum GameFile
     /// <summary> Contains the game text that is commonly re-used, not related to the storyline or general overworld content. </summary>
     GameText,
 
-    /// <summary> Localized Game Text for <see cref="GameLanguage.カタカナ"/>. </summary>
+    /// <summary> Localized Game Text for <see cref="GameLanguage.かな"/>. </summary>
     GameText0,
 
-    /// <summary> Localized Game Text for <see cref="GameLanguage.汉字简化方案"/>. </summary>
+    /// <summary> Localized Game Text for <see cref="GameLanguage.漢字"/>. </summary>
     GameText1,
 
     /// <summary> Localized Game Text for <see cref="GameLanguage.English"/>. </summary>
@@ -29,22 +29,22 @@ public enum GameFile
     /// <summary> Localized Game Text for <see cref="GameLanguage.Español"/>. </summary>
     GameText6,
 
-    /// <summary> Localized Game Text for <see cref="GameLanguage.한국"/>. </summary>
+    /// <summary> Localized Game Text for <see cref="GameLanguage.한국어"/>. </summary>
     GameText7,
 
-    /// <summary> Localized Game Text for <see cref="GameLanguage.汉字简化方案"/>. </summary>
+    /// <summary> Localized Game Text for <see cref="GameLanguage.简体中文"/>. </summary>
     GameText8,
 
-    /// <summary> Localized Game Text for <see cref="GameLanguage.漢字簡化方案"/>. </summary>
+    /// <summary> Localized Game Text for <see cref="GameLanguage.繁體中文"/>. </summary>
     GameText9,
 
     /// <summary> Contains the story text that is used to tell the story via overworld events and interactions. </summary>
     StoryText,
 
-    /// <summary> Localized Story Text for <see cref="GameLanguage.カタカナ"/>. </summary>
+    /// <summary> Localized Story Text for <see cref="GameLanguage.かな"/>. </summary>
     StoryText0,
 
-    /// <summary> Localized Story Text for <see cref="GameLanguage.汉字简化方案"/>. </summary>
+    /// <summary> Localized Story Text for <see cref="GameLanguage.漢字"/>. </summary>
     StoryText1,
 
     /// <summary> Localized Story Text for <see cref="GameLanguage.English"/>. </summary>
@@ -62,13 +62,13 @@ public enum GameFile
     /// <summary> Localized Story Text for <see cref="GameLanguage.Español"/>. </summary>
     StoryText6,
 
-    /// <summary> Localized Story Text for <see cref="GameLanguage.한국"/>. </summary>
+    /// <summary> Localized Story Text for <see cref="GameLanguage.한국어"/>. </summary>
     StoryText7,
 
-    /// <summary> Localized Story Text for <see cref="GameLanguage.汉字简化方案"/>. </summary>
+    /// <summary> Localized Story Text for <see cref="GameLanguage.简体中文"/>. </summary>
     StoryText8,
 
-    /// <summary> Localized Story Text for <see cref="GameLanguage.漢字簡化方案"/>. </summary>
+    /// <summary> Localized Story Text for <see cref="GameLanguage.繁體中文"/>. </summary>
     StoryText9,
 
     /// <summary> Overworld grass/etc encounterable species data. </summary>

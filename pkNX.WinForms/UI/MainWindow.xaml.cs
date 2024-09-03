@@ -44,16 +44,16 @@ public partial class MainWindow
         nameof(Categories), typeof(EditorButtonData[]), typeof(MainWindow), new PropertyMetadata(Array.Empty<EditorButtonData>()));
 
     private static readonly string[] SupportedLanguages = [
-        "カタカナ",
+        "かな",
         "漢字",
         "English",
         "Français",
         "Italiano",
         "Deutsch",
         "Español",
-        "한국",
-        "汉字简化方案",
-        "漢字簡化方案",
+        "한국어",
+        "简体中文",
+        "繁體中文",
     ];
 
     public EditorButtonData[] Categories

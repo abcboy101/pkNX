@@ -6,12 +6,12 @@
 public enum GameLanguage
 {
     /// <summary>
-    /// Japanese (katakana)
+    /// Japanese (kana)
     /// </summary>
-    カタカナ = 0,
+    かな = 0,
 
     /// <summary>
-    /// Japanese (hiragana)
+    /// Japanese (kanji)
     /// </summary>
     漢字 = 1,
 
@@ -43,15 +43,15 @@ public enum GameLanguage
     /// <summary>
     /// Korean
     /// </summary>
-    한국 = 7,
+    한국어 = 7,
 
     /// <summary>
     /// Chinese (Simplified)
     /// </summary>
-    汉字简化方案 = 8,
+    简体中文 = 8,
 
     /// <summary>
     /// Chinese (Traditional)
     /// </summary>
-    漢字簡化方案 = 9,
+    繁體中文 = 9,
 }
